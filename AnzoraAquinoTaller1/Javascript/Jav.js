@@ -4,7 +4,7 @@ function bt1(){
 var nombre = document.getElementById("nombre").value;
 var apellido = document.getElementById("apellido").value;
 var carnet = document.getElementById("carnet").value;
-var docente = document.getElementById("docente").Checked;
+var docente = document.getElementById("docente").checked;
 var dev = 3;
     if(nombre == ""){
         alert("Campo del nombre vacio");
@@ -38,7 +38,7 @@ function bt2(){
     var nombre = document.getElementById("nombre").value;
 var apellido = document.getElementById("apellido").value;
 var carnet = document.getElementById("carnet").value;
-var docente = document.getElementById("docente").Checked;
+var docente = document.getElementById("docente").checked;
 var dev = 7;
     if(nombre == ""){
         alert("Campo del nombre vacio");
@@ -71,7 +71,7 @@ function bt3(){
     var nombre = document.getElementById("nombre").value;
 var apellido = document.getElementById("apellido").value;
 var carnet = document.getElementById("carnet").value;
-var docente = document.getElementById("docente").Checked;
+var docente = document.getElementById("docente").checked;
 var dev = 15;
     if(nombre == ""){
         alert("Campo del nombre vacio");
@@ -104,7 +104,7 @@ function bt4(){
     var nombre = document.getElementById("nombre").value;
 var apellido = document.getElementById("apellido").value;
 var carnet = document.getElementById("carnet").value;
-var docente = document.getElementById("docente").Checked;
+var docente = document.getElementById("docente").checked;
 var dev = 2;
     if(nombre == ""){
         alert("Campo del nombre vacio");
