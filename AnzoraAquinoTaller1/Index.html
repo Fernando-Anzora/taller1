@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+            <meta charset="utf-8" />
+            <title>- LibreriaPegaso -</title>
+            <link rel="stylesheet" href="CSS/Style.css" />
+            
+    </head>
+    <body>
+        <header class="header_box">
+        <h2 class="title">Libreria Pegaso</h2>
+        <img class="imgTitle" src="Img/Pegaso.png" />
+        </header><br><br>
+        <div class="Contenido_box">
+        
+        <div class="datos_box">
+            <h3 class="dataso_datos_box">Sus Datos:</h3>
+            <p class="dataso_datos_box">Ingrese sus datos aqui para prestar un libro</p>
+            <div class="Datos_usuario">
+                <center>
+                <input type="text" class="label" placeholder="Nombre" id="nombre"><br>
+                <input type="text" class="label" placeholder="Apellido" id="apellido"><br>
+                <input type="text" class="label" placeholder="Carnet" id="carnet"><br>
+                </center>
+                <p class="docente"><input type="checkbox" id="docente"> Soy docente</p><br>
+                
+            </div>
+            <p id="info_datos" class="dataso_datos_box"></p>
+        </div>
+        <section class="libros_box"><br>
+        <h1 class="title">Libros</h1>
+        <div class="libro" id="libro">
+            <h3 class="title">Homo Deus</h3>
+            <p>Autor: Yuval Noah Harari , Genero: Tecnologia</p>
+            <img src="Img/HomoDeus.png" class="imglibro"/><br>
+            <button onclick="bt1()">Prestar libro</button>
+        </div>
+        <div class="libro" id="libro">
+            <h3 class="title">Don quijote de la mancha</h3>
+            <p>Autor: Miguel de Cervantes , Genero: Obra Literaria</p>
+            <img src="Img/quijote.png" class="imglibro"/><br>
+            <button onclick="bt2()">Prestar libro</button>
+        </div>
+        <div class="libro" id="libro">
+            <h3 class="title">Dinamica de tesis</h3>
+            <p>Autor: Julio B. Domínguez , Genero: Tesis Universitaria</p>
+            <img src="Img/Tesis.png" class="imglibro"/><br>
+            <button onclick="bt3()">Prestar libro</button>
+        </div>
+        <div class="libro" id="libro">
+            <h3 class="title">Yo , Robot</h3>
+            <p>Autor: Isaac Asimov , Genero: Ciencia Ficcion</p>
+            <img src="Img/yorobot.jpg" class="imglibro"/><br>
+            <button onclick="bt4()">Prestar libro</button><br><br>
+        </div>
+        </section>   
+            
+        </div>
+        <div class="listado_box" id="box"><br>
+        <h1 class="title">Tabla de prestamos</h1>
+            <br><br>
+        </div> 
+
+    </body>
+    <footer class="header_box" >
+        <script src="Javascript/Jav.js"></script>
+        <h3 class="title">Derechos reservados - Fernando Anzora</h3>
+    </footer>
+</html>

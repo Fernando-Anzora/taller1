@@ -1,0 +1,56 @@
+body{
+    background: coral;
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+    color: coral;
+    text-align: center;
+}
+.imgTitle{
+    height: 125px;
+    width: 125px;
+    margin-left: 37.7%;
+    
+}
+
+.header_box{
+    background: white;
+    width: 550px;
+    margin: auto;
+    border-radius: 15px;
+    
+}
+
+.dataso_datos_box , .docente{
+  color: coral;
+  text-align: center;
+}
+
+.Contenido_box , .listado_box{
+    background: white;
+    width: 80%;
+    border-radius: 19px;
+    margin: auto;
+    
+}
+
+.datos_box{
+    position: sticky;
+    top: 25px;
+    margin: 25PX;
+    float: right;
+    border-radius: 15px;
+    width: 225px;
+    background: #1a1d1e;
+}
+.label{
+    margin: auto;
+}
+
+.imglibro{
+    width: 250px;
+    height: 250px;
+}
+
