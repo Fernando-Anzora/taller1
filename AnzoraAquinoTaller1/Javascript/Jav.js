@@ -18,7 +18,7 @@ var dev = 3;
                          
                          
                          if(docente == true){
-                             var dev = dev*2;
+                             dev = dev*2;
                              alert("Listo usted ha prestado el libro con exito!");
                              html += "<br><p>Usuario: "+nombre+" "+apellido+" carnet: "+carnet+" Fecha de devolucion:"+dev+" Dias"+" Libro: Homo Deus"+"</p>";
                              div.innerHTML = html;
@@ -51,7 +51,7 @@ var dev = 7;
                      }else{
                          
                          if(docente == true){
-                             var dev = dev*2;
+                             dev = dev*2;
                              alert("Listo usted ha prestado el libro con exito!");
                              html += "<br><p>Usuario: "+nombre+" "+apellido+" carnet: "+carnet+" Fecha de devolucion:"+dev+" Dias"+" Libro: Don quijote de la mancha"+"</p>";
                              div.innerHTML = html;
@@ -84,7 +84,7 @@ var dev = 15;
                      }else{
                          
                          if(docente == true){
-                             var dev = dev*2;
+                             dev = dev*2;
                              alert("Listo usted ha prestado el libro con exito!");
                              html += "<br><p>Usuario: "+nombre+" "+apellido+" carnet: "+carnet+" Fecha de devolucion:"+dev+" Dias"+" Libro: Dinamica de tesis"+"</p>";
                              div.innerHTML = html;
@@ -117,7 +117,7 @@ var dev = 2;
                      }else{
                          
                          if(docente == true){
-                             var dev = dev*2;
+                             dev = dev*2;
                              alert("Listo usted ha prestado el libro con exito!");
                              html += "<br><p>Usuario: "+nombre+" "+apellido+" carnet: "+carnet+" Fecha de devolucion:"+dev+" Dias"+" Libro: Yo , Robot"+"</p>";
                              div.innerHTML = html;
